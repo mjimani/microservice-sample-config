@@ -5,6 +5,8 @@ server:
 spring:
   application:
     name: company-service
+  zipkin:
+    base-url: http://192.168.2.172:9411/
 eureka:
   client:
     register-with-eureka: true
